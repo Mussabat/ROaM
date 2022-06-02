@@ -1,0 +1,138 @@
+ .App {
+  height: 100%;
+  width : 100%;
+}
+
+/*.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+*{
+  margin : 0px;
+  padding : 0px;
+}
+
+.navbar{
+  width : 100%;
+  margin : auto;
+  padding : 35px 0;
+  display : flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #8CC0DE;
+  height: 5px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+
+}
+.navbar ul li {
+  list-style : none;
+  display : inline-block;
+  margin : 0 20px;
+  position : relative;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color : #2E0249;
+
+} 
+
+.navbar ul li::after {
+  content : '';
+  height : 5px;
+  width : 0;
+  background : #E9D5DA;
+  position : absolute;
+  left : 0;
+  bottom : -10px;
+  transition : 0.6s;
+}
+
+.navbar ul li:hover::after{
+  width : 100%;
+  background: #422f5c;
+}
+
+.img{
+  width: 100%;
+  height: 900px;
+}
+.box{
+  height: 300px;
+  background-color: #99C4C8;
+}
+
+.txt{
+  margin-top: 30px;
+  margin-left : 160px;
+  margin-bottom: 10px; 
+  color : #2E0249;
+
+}
+.txt:hover{
+  color : #B22727;
+}
+
+.name{
+  margin-top: 10px;
+  margin-left : 30px;
+  margin-bottom: 10px;
+  height: 25.5px;
+  box-shadow: 3px 3px #ca1010;
+
+}
+
+
+.btn{
+ margin-left: 180px;
+ margin-top: 150px;
+ height: 40px; 
+ width: 150px;
+ background-color: #827397;
+ font-size: larger;
+ font-weight: 300;
+ font-family: 'Manrope', sans-serif;
+ border-radius: 25px;
+ text-align: center;
+ color: #f5ebed;
+
+
+}
+.btn:hover{
+  background-color:  #DEB6AB;
+  color : #301358
+}
+
+
