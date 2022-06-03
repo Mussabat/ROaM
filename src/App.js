@@ -22,7 +22,8 @@ function App() {
         <div class="navbar">
           <ul>
             <li><a href="z">Home</a></li>
-            <li><a href="z">Post</a></li>
+            <li><a href="z">Destinations</a></li>
+            <li><a href="z">Tours</a></li>
             <li><a href="z">Features</a></li>
             <li><a href="z">Gallery</a></li>
             <li><a href="z">Blog</a></li>
